@@ -64,4 +64,4 @@ aggdata<-aggregate(. ~ activitylabels + subject, activityset, mean)
 tidydata<-arrange(aggdata, activitylabels, subject)
 
 ## Writing the tidy data set into a new file
-write.table(tidydata,"C:/Users/Mooney/Desktop/Coursera/Getting_Cleaning_Data/tidydata.txt")
+write.table(tidydata,"C:/Users/Mooney/Desktop/Coursera/Getting_Cleaning_Data/tidydata.txt", row.name = FALSE)
