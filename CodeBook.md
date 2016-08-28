@@ -1,8 +1,14 @@
-==================================================================
+===================
 Project Description
-==================================================================
+===================
 The purpose for this project was to showcase the downloand and subsequent cleaning of a data set to be used for further analysis.
 
+================================
+Study Design and Data Processing
+================================
+
+Collection of the Raw Data
+==========================
 The original data set was collected by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto through Smartlab - Non Linear Complex Systems Laboratory [1]
 
 The description for the experiments run to obtain the data were as follows:
@@ -27,7 +33,9 @@ For each record it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-
+===========================
+Creating The Tidy Data File
+===========================
 For the purpose of this course, only the data specific to mean and standard deviation values were retained.
 
 Thus, in order to obtain the data specific to the assignment, the following steps were performed using code via R version 3.3.0 on a Windows 64-bit platform:
@@ -37,14 +45,16 @@ Thus, in order to obtain the data specific to the assignment, the following step
 - Read in subject data set, which identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 - Read in features labels, which describe each variable measured during the study
 - Select only column V2 from features, as these values were used for column headings
-- Transposed the features data for V2 column only (features_only) to be used to create column headings
+- Transpose the features data for V2 column only (features_only) to be used to create column headings
 - Set the column headings
-- Included only the mean, standard deviation columns in training and test data
-- Obtained only the mean and standard deviation columns for the X data set
-- Row-binded the train and test y data sets to each other
-- Binded the mean and standard deviation columns to the y data set and subjects data set
-- Changed class type for activity labels and subject labels to factorfor factor-based analysis
-- Created factor levels for the activity labels, based on activity type (i.e., walking, walking upstairs, walking downstairs, sitting, standing, and laying)
+- Include only the mean, standard deviation columns in training and test data
+- Obtaine only the mean and standard deviation columns for the X data set
+- Row-bind the train and test y data sets to each other
+- Bind the mean and standard deviation columns to the y data set and subjects data set
+- Change class type for activity labels and subject labels to factorfor factor-based analysis
+- Create factor levels for the activity labels, based on activity type (i.e., walking, walking upstairs, walking downstairs, sitting, standing, and laying)
+- Converting each of the variable (column) names to lower case
+- Get rid of parentheses in original data variables
 
 
 The original dataset includes the following files:
