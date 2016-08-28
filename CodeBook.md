@@ -86,7 +86,6 @@ The following files are available for the train and test data. Their description
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 - 'train/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-- 
 
 Variables Present in the Data
 =============================
@@ -136,7 +135,7 @@ Variables Present in the Data
 - angle(tbodygyromean,gravitymean): Angle between mean time domain body angular velocity signal and mean gravity
 - angle(tbodygyrojerk,ean,gravitymean): Angle between mean time domain body angular velocity jerk signal and mean gravity
 - angle(X,gravitymean): Angle of the gravity mean in the X-direction
-- subject: the subject who performed the activity for each sample.
+- subject: the subject who performed the activity for each sample; there were 30 subjects in the study.
 - activity labels: class labels with activity name; these are the activities which were performed in obtaining data:
 -   1 WALKING
     2 WALKING_UPSTAIRS
@@ -147,10 +146,12 @@ Variables Present in the Data
 
 Class of Variables
 ==================
-Each of the variables above, with the exception of activitylabels and subject, are of class numeric
-A
-- Each feature vector is a row on the text file.
-
+- Each of the variables above, with the exception of activitylabels and subject, are of class numeric
+- Activitylabels and subject are of class factor
+- The length for each variable is 150
+- Each of the variables, except for subject and activity levels, are normalized values which range between -1 and 1
+- Subject has 30 factor levels
+- Activitylevels has 6 factor levels
 
 Sources and License:
 ===================
