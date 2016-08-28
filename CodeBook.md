@@ -39,7 +39,7 @@ Creating The Tidy Data File
 For the purpose of this course, only the data specific to mean and standard deviation values were retained.
 
 Thus, in order to obtain the data specific to the assignment, the following steps were performed using code via R version 3.3.0 on a Windows 64-bit platform:
-============================================================================================================================================================
+
 - Read in the original X test and X training sets
 - Read in the original y (numeric indictor labels) for test and training sets
 - Read in subject data set, which identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
