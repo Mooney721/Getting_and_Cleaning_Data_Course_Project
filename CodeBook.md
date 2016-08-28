@@ -92,6 +92,59 @@ Variables Present in the Data
 =============================
 - tbodyacc_mean: Mean time domain body acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
 - tbodyacc_std: Standard deviation of time domain body acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- tgravityacc_mean: Mean time domain gravity acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- tgravityacc_std: Standard deviation of time domain gravity acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- tbodyaccjerk_mean: Mean time domain body linear acceleration jerk signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- tbodyaccjerk_std: Standard deviation of time domain body linear acceleration jerk signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- tbodygyro_mean: Mean time domain body angular velocity signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- tbodygyro_std: Standard deviation of time domain body angular velocity signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- tbodygyrojerk_mean: Mean time domain body angular velocity signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- tbodygyrojerk_std: Standard deviation of time domain body angular velocity signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- tbodyaccmag_mean: Euclidean norm of mean time domain body acceleration signal
+- tbodyaccmag_std: Euclidean norm of standard deviation of time domain body acceleration signal
+- tgravityaccmag_mean: Euclidean norm of mean time domain gravity acceleration signal
+- tgravityaccmag_std: Euclidean norm of standard deviation of time domain gravity acceleration signal
+- tbodyaccjerkmag_mean: Euclidean norm of mean time domain body linear acceleration jerk signal
+- tbodyaccjerkmag_std: Euclidean norm of standard deviation of time domain body linear acceleration jerk signal
+- tbodygyromag_mean: Euclidean norm of mean time domain body angular velocity signal
+- tbodygyromag_std: Euclidean norm of standard deviation of time domain body angular velocity signal
+- tbodygyrojerkmag_mean: Euclidean norm of mean time domain body angular velocity signal
+- tbodygyrojerkmag_std: Euclidean norm of standard deviation of time domain body angular velocity signal
+- fbodyacc_mean: Mean fast Fourier transformed body acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- fbodyacc_std: Standard deviation of fast Fourier transformed body acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- fbodyacc_meanfreq: Mean frequency of fast Fourier transformed body acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- fbodyaccjerk_mean: Mean fast Fourier transformed body linear acceleration jerk signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- fbodyaccjerk_std: Standard deviation of fast Fourier transformed body linear acceleration jerk signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- fbodyaccjerk_meanfreq: Mean frequency of fast Fourier transformed body linear acceleration jerk signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- fbodygyro_mean: Mean fast Fourier transformed body angular velocity signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- fbodygyro_std: Standard deviation of fast Fourier transformed body angular velocity signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- fbodygyro_meanfreq()-X: Mean frequency of fast Fourier transformed body angular velocity signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- fbodyaccmag_mean: Euclidean norm of mean fast Fourier transformed body acceleration signal
+- fbodyaccmag_std: Euclidean norm of standard deviation of fast Fourier transformed body acceleration signal
+- fbodyaccmag_meanfreq: Euclidean norm of mean frequency of fast Fourier transformed body acceleration signal
+- fbodybodyaccjerkmag_mean: Euclidean norm of mean fast Fourier transformed body acceleration jerk signal
+- fbodybodyaccjerkmag_std: Euclidean norm of standard deviation of fast Fourier transformed body acceleration jerk signal
+- fbodybodyaccjerkmag_meanfreq: Euclidean norm of mean frequency of fast Fourier transformed body acceleration jerk signal
+- fbodybodygyromag_mean: Euclidean norm of mean fast Fourier transformed body angular velocity jerk signal
+- fbodybodygyromag_std: Euclidean norm of standard deviation of fast Fourier transformed body angular velocity jerk signal
+- fbodybodygyromag_meanfreq: Euclidean norm of mean frequency of fast Fourier transformed body angular velocity jerk signal
+- fbodybodygyrojerkmag_mean: Euclidean norm of mean fast Fourier transformed body angular velocityjerk signal
+- fbodybodygyrojerkmag_std: Euclidean norm of standard deviation of fast Fourier transformed body angular velocity jerk signal
+- fbodybodygyrojerkmag_meanfreq: Euclidean norm of mean frequency of fast Fourier transformed body angular velocity jerk signal
+- angle(tbodyaccmean,gravity): Angle between mean time domain body acceleration signal and gravity
+- angle(tbodyaccjerkmean),gravitymean): Angle between mean time domain body linear acceleration jerk signal and mean gravity
+- angle(tbodygyromean,gravitymean): Angle between mean time domain body angular velocity signal and mean gravity
+- angle(tbodygyrojerk,ean,gravitymean): Angle between mean time domain body angular velocity jerk signal and mean gravity
+- angle(X,gravitymean): Angle of the gravity mean in the X-direction
+- activity labels: class labels with activity name; these are the activities which were performed in obtaining data:
+-   1 WALKING
+    2 WALKING_UPSTAIRS
+    3 WALKING_DOWNSTAIRS
+    4 SITTING
+    5 STANDING
+    6 LAYING
+
+
 
 
 Class of Variables
