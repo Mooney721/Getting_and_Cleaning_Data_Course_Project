@@ -1,8 +1,7 @@
 # Getting_and_Cleaning_Data_Course_Project
-==================================================================
-Human Activity Recognition Using Smartphones Dataset (Truncated)
-Version 1.0
-==================================================================
+============================================================================
+Human Activity Recognition Using Smartphones Dataset (Truncated) Version 1.0
+============================================================================
 The original data set was collected by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto through Smartlab - Non Linear Complex Systems Laboratory [1]
 
 The description for the experiments run to obtain the data were as follows:
