@@ -56,9 +56,12 @@ Thus, in order to obtain the data specific to the assignment, the following step
 - Converting each of the variable (column) names to lower case
 - Get rid of parentheses in original data variables
 
+===========================
+Description of the Variables
+============================
 
 The original dataset includes the following files:
-=========================================
+==================================================
 
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 
