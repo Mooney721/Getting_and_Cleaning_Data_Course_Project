@@ -90,11 +90,16 @@ The following files are available for the train and test data. Their description
 
 Variables Present in the Data
 =============================
-tbodyacc_mean: Mean time domain body acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
-tbodyacc_std: Standard deviation of time domain body acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
-tgravityacc_mean: Mean time domain gravity acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
-tgravityacc_std: Standard deviation of time domain gravity acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
-tbodyaccjerk_mean: Mean time domain body linear acceleration jerk signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+tbodyacc_mean: 
+Mean time domain body acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+tbodyacc_std: 
+Standard deviation of time domain body acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+tgravityacc_mean: 
+Mean time domain gravity acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+tgravityacc_std: 
+Standard deviation of time domain gravity acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+tbodyaccjerk_mean: 
+Mean time domain body linear acceleration jerk signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
 tbodyaccjerk_std: Standard deviation of time domain body linear acceleration jerk signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
 tbodygyro_mean: Mean time domain body angular velocity signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
 tbodygyro_std: Standard deviation of time domain body angular velocity signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
