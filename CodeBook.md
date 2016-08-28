@@ -55,6 +55,7 @@ Thus, in order to obtain the data specific to the assignment, the following step
 - Create factor levels for the activity labels, based on activity type (i.e., walking, walking upstairs, walking downstairs, sitting, standing, and laying)
 - Converting each of the variable (column) names to lower case
 - Get rid of parentheses in original data variables
+- Arrange the data in acscending order by activity label and then by subject
 
 ===========================
 Description of the Variables
