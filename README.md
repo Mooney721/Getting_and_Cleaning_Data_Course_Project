@@ -27,26 +27,6 @@ For each record it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-
-For the purpose of this course, only the data specific to mean and standard deviation values were retained.
-
-Thus, in order to obtain the data specific to the assignment, the following steps were performed using code via R version 3.3.0 on a Windows 64-bit platform:
-============================================================================================================================================================
-- Read in the original X test and X training sets
-- Read in the original y (numeric indictor labels) for test and training sets
-- Read in subject data set, which identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
-- Read in features labels, which describe each variable measured during the study
-- Select only column V2 from features, as these values were used for column headings
-- Transposed the features data for V2 column only (features_only) to be used to create column headings
-- Set the column headings
-- Included only the mean, standard deviation columns in training and test data
-- Obtained only the mean and standard deviation columns for the X data set
-- Row-binded the train and test y data sets to each other
-- Binded the mean and standard deviation columns to the y data set and subjects data set
-- Changed class type for activity labels and subject labels to factorfor factor-based analysis
-- Created factor levels for the activity labels, based on activity type (i.e., walking, walking upstairs, walking downstairs, sitting, standing, and laying)
-
-
 The original dataset includes the following files:
 =========================================
 
