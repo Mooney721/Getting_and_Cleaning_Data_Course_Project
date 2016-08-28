@@ -136,6 +136,7 @@ Variables Present in the Data
 - angle(tbodygyromean,gravitymean): Angle between mean time domain body angular velocity signal and mean gravity
 - angle(tbodygyrojerk,ean,gravitymean): Angle between mean time domain body angular velocity jerk signal and mean gravity
 - angle(X,gravitymean): Angle of the gravity mean in the X-direction
+- subject: the subject who performed the activity for each sample.
 - activity labels: class labels with activity name; these are the activities which were performed in obtaining data:
 -   1 WALKING
     2 WALKING_UPSTAIRS
@@ -143,9 +144,6 @@ Variables Present in the Data
     4 SITTING
     5 STANDING
     6 LAYING
-
-
-
 
 Class of Variables
 ==================
