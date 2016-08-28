@@ -90,8 +90,8 @@ The following files are available for the train and test data. Their description
 
 Variables Present in the Data
 =============================
-tbodyacc_mean: Mean time domain body acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
-tbodyacc_std: Standard deviation of time domain body acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- tbodyacc_mean: Mean time domain body acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
+- tbodyacc_std: Standard deviation of time domain body acceleration signal (indicated by -X, -Y, -Z for signal in X, Y, or Z direction, respectively)
 
 
 Class of Variables
