@@ -67,8 +67,6 @@ Description of the Variables
 The original dataset includes the following files:
 ==================================================
 
-- 'features_info.txt': Shows information about the variables used on the feature vector.
-
 - 'features.txt': List of all features.
 
 - 'activity_labels.txt': Links the class labels with their activity name.
